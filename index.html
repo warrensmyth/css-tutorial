@@ -3,46 +3,72 @@
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
+
 <!--This is an example of an internal style sheet-->
 <style>
   
+  /* GLOBAL STYLES */
   a {
-     color: red;
+     color: rgba(212, 117, 244, 0.2);
+  }
+
+  body {
+    height: 800px;
+  }
+
+ 
+  /* BIO STYLES */
+  
+  .bio-wrapper {
   }
 
   .bio-box {
-    border: 1px solid black;
+    border: 1px solid #000;
+    width: 50%;
   }
 
   .bio-copy a {
-    color: green;
+    color: #0f0;
   }
 
-  .social-link {
-    color: blue;
+
+
+  h2 {
+    font-size: 30px;
   }
+ 
+  /* SOCIAL STYLES */
+  .social-link {
+    background: rgba(150, 150, 150, 0.5);
+    color: #00f;
+  }
+
+  /* THEMES */
+
 
 </style>
 <!--This is an example of an internal style sheet-->
-  </head>
+
+</head>
 
 <body>
 
 <h1>I'm an h1</h1>
   <ul>
     <li>
-      <a href="http://example.com/">Link</a>
+      <a href="http://example.com/" class="social-link">Link</a>
     </li>
     <li>
-      <a href="http://example.com/">Link</a>
+      <a href="http://example.com/" class="social-link">Link</a>
     </li>
     <li>
-      <a href="http://example.com/">Link</a>
+      <a href="http://example.com/" class="social-link">Link</a>
     </li>
   </ul>
 
 <h2>I'm an h2</h2>
-
+  
+<div class="bio-wrapper">
   <div class="bio-box">
     
     <h3>Michael Hartl</h3>
@@ -110,7 +136,8 @@
         The Future
       </p>
     </div>
-
   </div>
+
+</div>
 </body>
 </html>
