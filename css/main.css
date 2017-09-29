@@ -17,10 +17,20 @@ a {
 
 .header-nav {
   float: right;
+  padding: 5.5vh 60px 0 0;
 }
 
 .header-nav > li {
   display: inline-block;
+  margin-left: 1em;
+}
+
+.header-nav a {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* HERO STYLES */
@@ -66,7 +76,6 @@ a {
 }
 .bio-box {
   border: 1px solid black;
-  border-color: transparent black black transparent;
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
