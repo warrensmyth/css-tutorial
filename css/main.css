@@ -67,10 +67,16 @@ a {
 
 .header-logo {
   background-color: #000;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+.header-logo img {
+  width: 4.3vh;
 }
 .header-logo:hover,
 .header-logo:active {
