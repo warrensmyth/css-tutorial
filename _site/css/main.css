@@ -1,5 +1,10 @@
 /* GLOBAL STYLES */
 
+html {
+  box-shadow: 0 0 0 30px #000 inset;
+  padding: 0 30px;
+}
+
 body {
   font-family: helvetica, arial, sans;
 }
@@ -26,6 +31,9 @@ a {
 .header {
   background-color: #000;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .header-logo {
@@ -33,6 +41,7 @@ a {
   box-sizing: border-box;
   display: block;
   height: 10vh;
+  left: -30px;
   padding-top: 10px;
   position: relative;
   text-align: center;
@@ -92,6 +101,7 @@ a {
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
+  position: relative;
 }
 .full-hero:hover {
   color: tan;
@@ -123,7 +133,9 @@ a {
 .social-list {
   list-style: none;
   padding: 0;
-  text-align: center;
+  position: relative;
+  text-align: left;
+  z-index: 40;
 }
 .social-list > li {
   display: inline-block;
