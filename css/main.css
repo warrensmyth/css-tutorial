@@ -74,6 +74,7 @@ a {
 }
 p {
   line-height: 1.5;
+  margin: 0.75em 0;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -224,16 +225,30 @@ h2 ~ p {
   text-align: center;
 }
 .home-callout {
+  display: flex;
+  align-items: center;
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
 }
+
+/* Mystery Addition */
+.home-callout h3 {
+  color: inherit;
+  margin-top: 1em;
+}
+/* Mystery Addition */
+
 .callout-title {
+  flex-grow: 1;
+  flex-basis: 0;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 .callout-copy {
+  flex-basis: 40rem;
+  padding: 0 3vw;
   font-size: 0.8rem;
 }
 
