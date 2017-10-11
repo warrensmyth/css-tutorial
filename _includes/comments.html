@@ -4,9 +4,8 @@
 	{% for comment in comments reversed %}
 		{% assign commentData = comment[1] %}
 		<div>
-			{{ comment.Data.date }}
-			{{ commentData.name }}
-			{{ commentData.message }}
+			<h4>{{ commentData.name }}</h4>
+			<p>{{ commentData.message }}</p>
 		</div>
 	{% endfor %}
 </div>
