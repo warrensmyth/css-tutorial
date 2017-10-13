@@ -464,3 +464,13 @@ h4 {
   height: 6em;
   margin-bottom: 1.5em;
 }
+
+/* COMMENT STYLES */
+.comments {
+  display: inline-block;
+  flex: 1;
+  margin-right: 1em;
+  max-width: 30vw;
+  padding-top: 0.5em;
+  font-size: 0.8em;
+}
