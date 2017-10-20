@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Employing DRY Can Be a Real Mind Bender
-postHero: /images/gold.png
+postHero: /images/small/slide1.jpg
 author: Warren
 authorTwitter: http://twitter.com/warrenjsmyth
 gravatar:
