@@ -270,6 +270,12 @@ h4 {
   color: #fff;
 }
 
+.half-hero {
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+}
+
 /* HOMEPAGE STYLES */
 
 .home-section {
@@ -288,7 +294,21 @@ h4 {
   color: #fff;
   padding: 7vh 0;
 }
-
+.home-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  margin: auto;
+  width: 75%;
+}
 /* Mystery Addition */
 .home-callout h3 {
   color: inherit;
