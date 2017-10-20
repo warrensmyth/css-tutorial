@@ -537,3 +537,14 @@ h4 {
   padding-top: 0.5em;
   font-size: 0.8em;
 }
+
+/* MOBILE */
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
+}
