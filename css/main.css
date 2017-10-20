@@ -423,6 +423,9 @@ h4 {
 .blog-recent {
   text-align: right;
 }
+.blog-recent h2{
+  font-size: 1.2em;
+}
 .blog-title-list {
   list-style: none;
   padding: 0;
@@ -445,6 +448,8 @@ h4 {
 .blog-posts .post-header {
   font-size: 0.8rem;
 }
+
+/* POST STYLES */
 .post-header {
   margin-bottom: 1.5em;
 }

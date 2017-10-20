@@ -1,32 +1,19 @@
 ---
 layout: post
-title: This is the title of the post
-postHero: /images/shark.jpg
-author: Me, Myself, and I
-authorTwitter: http://twitter.com/mhartl
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
+title: Employing DRY Can Be a Real Mind Bender
+postHero: /images/gold.png
+author: Warren
+authorTwitter: http://twitter.com/warrenjsmyth
+gravatar:
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
 
-Call me *Ishmael*. Some years ago–*never mind how long
-precisely*–having little or no money in my purse, and nothing
-particular to interest me on shore, I thought I would sail about a little
-and see the watery part of the world. It is a way I have of driving off
-the spleen and regulating the circulation.
+I went ahead and broke down the blog index into a few includes, including includes that include other includes. I never thought that I would type that sentence, let alone that it would make any sense. 
 
-<img class="pull-left" src="http://placekitten.com/g/400/200"
-     alt="kitten">
+Furthermore, today I implemented this along with some of the other features in the guide, prior to the actual code being presented, which was rather satisfying. 
 
-Whenever I find myself growing grim about the mouth; whenever it is a damp,
-drizzly November in my soul; whenever I find myself involuntarily pausing
-before coffin warehouses, and bringing up the rear of every funeral I meet;
-and especially whenever my hypos get such an upper hand of me, that it
-requires a strong moral principle to prevent me from deliberately stepping
-into the street, and methodically knocking people’s hats off—then, I
-account it high time to get to sea as soon as I can. This is my substitute
-for pistol and ball.
+All together, these tutorials are giving me a lot of confidence in moving Westlawn's technical ambitions forward in a meaningful way. For now it's just my dad and I working through the paces to relaunch Westlawn into the modern webspace. 
 
-With a philosophical flourish Cato throws himself upon
-his sword; I quietly take to the ship. There is nothing surprising in this.
-If they but knew it, almost all men in their degree, some time or other,
-cherish very nearly the same feelings towards the ocean with me.
+There are still a lot of concepts I will have to learn, but mastery only comes from refinement, and refinement only comes from practice. I think that we will find that our students, alumni, and prospectives alike will be impressed with what is finally presented. 
+
+From there, the real fun begins. It is not by the efforts that we put in building the system that it will shine. It is from the feedback we receive that we will be able to craft something awesome. Until then, 1 day at a time, 1 line at a time, we're working towards something important to us, which is the best feeling in the world. 
