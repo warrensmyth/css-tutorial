@@ -227,7 +227,7 @@ h4 {
   background-color: rgba(0,0,0,0.1);
   color: #333;
 }
-/* HIDE IN THE FOOTER */
+/* FOOTER NAV */
 .footer .dropdown:hover .drop-menu,
 .footer .drop-trigger:after {
   display: none;
