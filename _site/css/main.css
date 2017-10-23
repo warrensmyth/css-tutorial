@@ -160,6 +160,21 @@ h4 {
 .dropdown:hover .drop-menu {
   display: block;
 }
+.drop-trigger {
+  display: inline-block;
+  padding-right: 1.5em;
+  position: relative;
+}
+.drop-trigger:after {
+  border: 0.3em solid;
+  border-color: #fff transparent transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 0.3em;
+  width: 0;
+}
 .dropdown:hover .drop-trigger:after {
   border-color: #ed6e2f transparent transparent;
 }
@@ -170,7 +185,7 @@ h4 {
   padding: 1em 0 0;
   position: absolute;
   right: 0;
-  z-index: 42;
+  z-index: 9;
 }
 .drop-menu:before {
   border: 0.6em solid;
@@ -185,7 +200,7 @@ h4 {
 .drop-menu li {
   background-color: #fff;
 }
-.drop-menu li~li {
+.drop-menu li ~ li {
   border-top: 1px dotted rgba(0,0,0,0.1)
 }
 .drop-menu li:first-child {
@@ -212,9 +227,8 @@ h4 {
   background-color: rgba(0,0,0,0.1);
   color: #333;
 }
-
 /* HIDE IN THE FOOTER */
-.footer .dropdown:hover .dropmenu,
+.footer .dropdown:hover .drop-menu,
 .footer .drop-trigger:after {
   display: none;
 }
