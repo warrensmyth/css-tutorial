@@ -592,7 +592,6 @@ h2 ~ p {
   padding-top: 2em;
 }
 
-/* MOBILE */
 @media (max-width: 800px) {
   html {
     box-shadow: none;
@@ -600,7 +599,6 @@ h2 ~ p {
   }
 
   /* HEADER STYLES */
- 
   .nav-links a {
     font-size: 3.25vw;
   }
@@ -608,7 +606,7 @@ h2 ~ p {
     left: auto;
   }
 
-    /* MOBILE MENU */
+  /* MOBILE MENU */
   .show-mobile-menu {
     display: block;
     float: right;
@@ -632,7 +630,8 @@ h2 ~ p {
   }
   .header-nav li {
     display: block;
-    margin-top: 1em;
+    margin: 1em 0 0;
+    padding: 0;
   }
   .header-nav li ~ li {
     border: 0;
@@ -661,14 +660,11 @@ h2 ~ p {
     content: "X";
     left: 0;
     position: absolute;
+    text-align: center;
     top: 1.5em;
     width: 100%;
-    text-align: center;
   }
-}
-
-  /* COLUMN STYLES */
-
+  
   /* HOME STYLES */
   .home-callout {
     flex-direction: column;
