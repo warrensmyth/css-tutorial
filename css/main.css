@@ -510,12 +510,8 @@ h2 ~ p {
 }
 
 /* BLOG STYLES */
-
 .blog-recent {
   text-align: right;
-}
-.blog-recent h2{
-  font-size: 1.2em;
 }
 .blog-title-list {
   list-style: none;
@@ -539,9 +535,25 @@ h2 ~ p {
 .blog-posts .post-header {
   font-size: 0.8rem;
 }
-
-/* POST STYLES */
-
+.post-header {
+  margin-bottom: 1.5em;
+}
+.post-header img,
+.post-header .social-link {
+  margin-right: 0.5em;
+}
+.post-header img {
+  border-radius: 99px;
+  display: inline-block;
+  height: 2.5em;
+  vertical-align: middle;
+}
+.posts-image {
+  background-position: center;
+  background-size: cover;
+  height: 6em;
+  margin-bottom: 1.5em;
+}
 .post {
   width: 100%;
 }
@@ -578,35 +590,6 @@ h2 ~ p {
   font-size: 0.8em;
   margin-top: 3em;
   padding-top: 2em;
-}
-.post-header {
-  margin-bottom: 1.5em;
-}
-.post-header img,
-.post-header .social-link {
-  margin-right: 0.5em;
-}
-.post-header img {
-  border-radius: 99px;
-  display: inline-block;
-  height: 2.5em;
-  vertical-align: middle;
-}
-.posts-image {
-  background-position: center;
-  background-size: cover;
-  height: 6em;
-  margin-bottom: 1.5em;
-}
-
-/* COMMENT STYLES */
-.comments {
-  display: inline-block;
-  flex: 1;
-  margin-right: 1em;
-  max-width: 30vw;
-  padding-top: 0.5em;
-  font-size: 0.8em;
 }
 
 /* MOBILE */
@@ -734,4 +717,15 @@ h2 ~ p {
   .gallery .gallery-info {
     flex: 1;
   }
+}
+
+
+/* COMMENT STYLES */
+.comments {
+  display: inline-block;
+  flex: 1;
+  margin-right: 1em;
+  max-width: 30vw;
+  padding-top: 0.5em;
+  font-size: 0.8em;
 }
