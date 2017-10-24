@@ -678,17 +678,6 @@ h2 ~ p {
     width: auto;
   }
 
-  /* BLOG STYLES */
-  .blog-recent {
-    display: none;
-  }
-  .blog-previews {
-    width: 85vw;
-  }
-  .post-aside {
-    display: none;
-  }
-
   /* GALLERY STYLES */
   .gallery {
     flex-direction: column;
@@ -712,6 +701,21 @@ h2 ~ p {
   }
   .gallery .gallery-info {
     flex: 1;
+  }
+
+  /* BLOG STYLES */
+  .blog-cols {
+    flex-direction: column;
+  }
+  .blog-recent {
+    flex: 1;
+    text-align: center;
+  }
+  .blog-previews {
+    width: 85vw;
+  }
+  .post-aside {
+    display: none;
   }
 }
 
