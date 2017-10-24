@@ -457,7 +457,6 @@ h2 ~ p {
 .bio-box h3 {
   color: #fff;
   font-size: 1.5em;
-  font-family: 'Monoton', helvetica, arial, sans;
   margin: -40px 0 1em;
   text-align: center;
   text-transform: uppercase;
@@ -471,9 +470,6 @@ h2 ~ p {
 }
 .bio-copy {
   font-size: 0.75em;
-}
-.bio-copy a {
-  color: green;
 }
 
 /* GALLERY STYLES */
